@@ -70,6 +70,39 @@ body {
     font-size: var(--td-font-size);
 }
 
-.tbl > table > thead > tr > th {
-    text-decoration: underline;
+/* PLAYER CARD STYLING */
+.pcard {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    border: var(--bdr-cmp);
+    border-radius: var(--bdr-rad);
+    padding: var(--cmp-padding);
 }
+
+.pcard > .imgs {
+    height: 15vh;
+    display: flex;
+}
+
+.pcard > .tbls {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.pcard > .tbls > * {
+    width: 100%;
+}
+
+.pcard > .info {
+    padding-left: var(--cmp-padding);
+}
+
+.pcard > .info > ul {
+    display: grid;
+    grid-auto-flow: column;
+    list-style-type:square;
+    padding-left: var(--cmp-padding);
+}
+

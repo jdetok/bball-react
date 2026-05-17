@@ -1,40 +1,21 @@
+import PlayerCard from "./PlayerCard";
 import Table from "./Table";
 import {
-    boxAvgs, boxTots, nbaLeaders, nbaTeamRecs, playerMeta, recGamesDate, recTopScorers,
-    shootingAvgs, shootingTots, wnbaLeaders, wnbaTeamRecs
+    nbaLeaders, nbaTeamRecs, playerMeta, recGamesDate, recTopScorers,
+    wnbaLeaders, wnbaTeamRecs, player
 } from "@/consts";
 
 export default function App() {
     return (
         <main className="app">
-            <div>
-                <Table
-                    cssClass="tbl"
-                    type="basic"
-                    header={`${playerMeta?.player} ${playerMeta?.cap_box_tot}`}
-                    data={[boxTots]}
-                />
-                <Table
-                    cssClass="tbl"
-                    type="basic"
-                    header={`${playerMeta?.player} ${playerMeta?.cap_box_avg}`}
-                    data={[boxAvgs]}
-                />
-                <Table
-                    cssClass="tbl"
-                    type="basic"
-                    header={`${playerMeta?.player} ${playerMeta?.cap_shtg_tot}`}
-                    data={shootingTots}
-                    rowHeaderFields={['type']}
-                />
-                <Table
-                    cssClass="tbl"
-                    type="basic"
-                    header={`${playerMeta?.player} ${playerMeta?.cap_shtg_avg}`}
-                    data={shootingAvgs}
-                    rowHeaderFields={['type']}
-                />
-            </div>
+            <PlayerCard
+                header={`${playerMeta?.player as string} | ${playerMeta?.team_name as string}`}
+                subhdr={playerMeta?.season as string}
+                infoStrs={[`${player?.playtime.games_played} Games Played`, `${player?.playtime.minutes} Minutes Played`, `${player?.playtime.minutes_pg} Minutes Per Game`]}
+                // infoStrs={[`${player?.playtime.games_played} Games Played | ${player?.playtime.minutes} Minutes Played | ${player?.playtime.minutes_pg} Minutes Per Game`]}
+                tImgSrc={playerMeta?.team_logo_url as string}
+                pImgSrc={playerMeta?.headshot_url as string}
+            />
             <Table
                 cssClass="tbl"
                 type="ranked"
@@ -75,8 +56,6 @@ export default function App() {
                 excludeFields={['player_id', 'season']}
                 rowHeaderFields={['player']}
             />
-
-
         </main>
     )
 }

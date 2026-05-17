@@ -1,12 +1,16 @@
 * {
     --background-color: rgb(47, 79, 79);
     --global-padding: 0.025rem;
+    --cmp-padding: 0.5rem;
     --title-h1-size: 4rem;
     --title-h2-size: 1.8rem;
     --h1-font-size: 1.4rem;
     --h2-font-size: 1.3rem;
+    --th-font-size: 1.2rem;
+    --td-font-size: 1rem;
     --bdr-rad: 1rem;
     --bdr-cmp: 2px solid black;
+    --bdr-tst: 3px solid black;
 }
 
 /* reduces built in browser padding */
@@ -22,7 +26,48 @@ body {
 }
 
 .app {
-    display: grid;
-    width: 99%;
+    display: flex;
     margin: 0 auto;
+}
+
+.tbl {
+    border: var(--bdr-cmp);
+    border-radius: var(--bdr-rad);
+    padding: var(--cmp-padding);
+    width: fit-content;
+    height: fit-content;
+}
+
+.tbl > .ttl {
+    width: 100%;
+    text-align: center;
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: var(--cmp-padding);
+}
+
+.tbl > table {
+    border: var(--bdr-cmp);
+    border-radius: var(--bdr-rad);
+    padding: var(--cmp-padding);
+    width: 100%;
+}
+
+.tbl > table tr th {
+    border: var(--bdr-tst);
+    border-radius: var(--bdr-rad);
+    padding: var(--cmp-padding);
+    font-size: var(--th-font-size);
+}
+.tbl > table tr td {
+    border: var(--bdr-cmp);
+    border-radius: var(--bdr-rad);
+    padding: var(--cmp-padding);
+    text-align: center;
+    font-size: var(--td-font-size);
+}
+
+.tbl > table > thead > tr > th {
+    text-decoration: underline;
 }

@@ -1,0 +1,236 @@
+{
+    "top_scorers": [
+        {
+            "player_id": 202695,
+            "team_id": 1610612746,
+            "player": "Kawhi Leonard",
+            "league": "NBA",
+            "points": 45,
+            "assists": 3,
+            "rebounds": 7
+        },
+        {
+            "player_id": 1626181,
+            "team_id": 1610612748,
+            "player": "Norman Powell",
+            "league": "NBA",
+            "points": 36,
+            "assists": 2,
+            "rebounds": 2
+        },
+        {
+            "player_id": 1630178,
+            "team_id": 1610612755,
+            "player": "Tyrese Maxey",
+            "league": "NBA",
+            "points": 34,
+            "assists": 10,
+            "rebounds": 8
+        },
+        {
+            "player_id": 1630595,
+            "team_id": 1610612765,
+            "player": "Cade Cunningham",
+            "league": "NBA",
+            "points": 31,
+            "assists": 11,
+            "rebounds": 8
+        },
+        {
+            "player_id": 1627759,
+            "team_id": 1610612738,
+            "player": "Jaylen Brown",
+            "league": "NBA",
+            "points": 29,
+            "assists": 4,
+            "rebounds": 10
+        },
+        {
+            "player_id": 201942,
+            "team_id": 1610612758,
+            "player": "DeMar DeRozan",
+            "league": "NBA",
+            "points": 25,
+            "assists": 6,
+            "rebounds": 5
+        },
+        {
+            "player_id": 1641708,
+            "team_id": 1610612745,
+            "player": "Amen Thompson",
+            "league": "NBA",
+            "points": 23,
+            "assists": 3,
+            "rebounds": 4
+        },
+        {
+            "player_id": 203937,
+            "team_id": 1610612762,
+            "player": "Kyle Anderson",
+            "league": "NBA",
+            "points": 22,
+            "assists": 1,
+            "rebounds": 8
+        },
+        {
+            "player_id": 1630560,
+            "team_id": 1610612751,
+            "player": "Cam Thomas",
+            "league": "NBA",
+            "points": 21,
+            "assists": 1,
+            "rebounds": 1
+        },
+        {
+            "player_id": 1631108,
+            "team_id": 1610612742,
+            "player": "Max Christie",
+            "league": "NBA",
+            "points": 18,
+            "assists": 2,
+            "rebounds": 1
+        }
+    ],
+    "recent_games": [
+        {
+            "game_id": 22500475,
+            "team_id": 1610612746,
+            "player_id": 202695,
+            "player": "Kawhi Leonard",
+            "league": "NBA",
+            "team": "LAC",
+            "team_name": "LA Clippers",
+            "game_date": "01/01/2026",
+            "matchup": "LAC vs. UTA",
+            "wl": "W",
+            "points": 118,
+            "opp_points": 101
+        },
+        {
+            "game_id": 22500472,
+            "team_id": 1610612748,
+            "player_id": 1626181,
+            "player": "Norman Powell",
+            "league": "NBA",
+            "team": "MIA",
+            "team_name": "Miami Heat",
+            "game_date": "01/01/2026",
+            "matchup": "MIA @ DET",
+            "wl": "W",
+            "points": 118,
+            "opp_points": 112
+        },
+        {
+            "game_id": 22500473,
+            "team_id": 1610612755,
+            "player_id": 1630178,
+            "player": "Tyrese Maxey",
+            "league": "NBA",
+            "team": "PHI",
+            "team_name": "Philadelphia 76ers",
+            "game_date": "01/01/2026",
+            "matchup": "PHI @ DAL",
+            "wl": "W",
+            "points": 123,
+            "opp_points": 108
+        },
+        {
+            "game_id": 22500472,
+            "team_id": 1610612765,
+            "player_id": 1630595,
+            "player": "Cade Cunningham",
+            "league": "NBA",
+            "team": "DET",
+            "team_name": "Detroit Pistons",
+            "game_date": "01/01/2026",
+            "matchup": "DET vs. MIA",
+            "wl": "L",
+            "points": 112,
+            "opp_points": 118
+        },
+        {
+            "game_id": 22500474,
+            "team_id": 1610612738,
+            "player_id": 1627759,
+            "player": "Jaylen Brown",
+            "league": "NBA",
+            "team": "BOS",
+            "team_name": "Boston Celtics",
+            "game_date": "01/01/2026",
+            "matchup": "BOS @ SAC",
+            "wl": "W",
+            "points": 120,
+            "opp_points": 106
+        },
+        {
+            "game_id": 22500474,
+            "team_id": 1610612758,
+            "player_id": 201942,
+            "player": "DeMar DeRozan",
+            "league": "NBA",
+            "team": "SAC",
+            "team_name": "Sacramento Kings",
+            "game_date": "01/01/2026",
+            "matchup": "SAC vs. BOS",
+            "wl": "L",
+            "points": 106,
+            "opp_points": 120
+        },
+        {
+            "game_id": 22500471,
+            "team_id": 1610612745,
+            "player_id": 1641708,
+            "player": "Amen Thompson",
+            "league": "NBA",
+            "team": "HOU",
+            "team_name": "Houston Rockets",
+            "game_date": "01/01/2026",
+            "matchup": "HOU @ BKN",
+            "wl": "W",
+            "points": 120,
+            "opp_points": 96
+        },
+        {
+            "game_id": 22500475,
+            "team_id": 1610612762,
+            "player_id": 203937,
+            "player": "Kyle Anderson",
+            "league": "NBA",
+            "team": "UTA",
+            "team_name": "Utah Jazz",
+            "game_date": "01/01/2026",
+            "matchup": "UTA @ LAC",
+            "wl": "L",
+            "points": 101,
+            "opp_points": 118
+        },
+        {
+            "game_id": 22500471,
+            "team_id": 1610612751,
+            "player_id": 1630560,
+            "player": "Cam Thomas",
+            "league": "NBA",
+            "team": "BKN",
+            "team_name": "Brooklyn Nets",
+            "game_date": "01/01/2026",
+            "matchup": "BKN vs. HOU",
+            "wl": "L",
+            "points": 96,
+            "opp_points": 120
+        },
+        {
+            "game_id": 22500473,
+            "team_id": 1610612742,
+            "player_id": 1631108,
+            "player": "Max Christie",
+            "league": "NBA",
+            "team": "DAL",
+            "team_name": "Dallas Mavericks",
+            "game_date": "01/01/2026",
+            "matchup": "DAL vs. PHI",
+            "wl": "L",
+            "points": 108,
+            "opp_points": 123
+        }
+    ]
+}

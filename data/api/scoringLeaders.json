@@ -1,0 +1,356 @@
+{
+    "nba": [
+        {
+            "player_id": 1628983,
+            "player": "Shai Gilgeous-Alexander",
+            "season": "2025-26",
+            "team": "OKC",
+            "points": 1060
+        },
+        {
+            "player_id": 1628378,
+            "player": "Donovan Mitchell",
+            "season": "2025-26",
+            "team": "CLE",
+            "points": 950
+        },
+        {
+            "player_id": 203999,
+            "player": "Nikola Jokić",
+            "season": "2025-26",
+            "team": "DEN",
+            "points": 948
+        },
+        {
+            "player_id": 1630178,
+            "player": "Tyrese Maxey",
+            "season": "2025-26",
+            "team": "PHI",
+            "points": 928
+        },
+        {
+            "player_id": 1627759,
+            "player": "Jaylen Brown",
+            "season": "2025-26",
+            "team": "BOS",
+            "points": 913
+        },
+        {
+            "player_id": 1628973,
+            "player": "Jalen Brunson",
+            "season": "2025-26",
+            "team": "NYK",
+            "points": 882
+        },
+        {
+            "player_id": 1630166,
+            "player": "Deni Avdija",
+            "season": "2025-26",
+            "team": "POR",
+            "points": 861
+        },
+        {
+            "player_id": 1630595,
+            "player": "Cade Cunningham",
+            "season": "2025-26",
+            "team": "DET",
+            "points": 826
+        },
+        {
+            "player_id": 1629029,
+            "player": "Luka Dončić",
+            "season": "2025-26",
+            "team": "LAL",
+            "points": 805
+        },
+        {
+            "player_id": 201935,
+            "player": "James Harden",
+            "season": "2025-26",
+            "team": "LAC",
+            "points": 804
+        },
+        {
+            "player_id": 1627750,
+            "player": "Jamal Murray",
+            "season": "2025-26",
+            "team": "DEN",
+            "points": 803
+        },
+        {
+            "player_id": 1641718,
+            "player": "Keyonte George",
+            "season": "2025-26",
+            "team": "UTA",
+            "points": 788
+        },
+        {
+            "player_id": 1630162,
+            "player": "Anthony Edwards",
+            "season": "2025-26",
+            "team": "MIN",
+            "points": 786
+        },
+        {
+            "player_id": 1627783,
+            "player": "Pascal Siakam",
+            "season": "2025-26",
+            "team": "IND",
+            "points": 775
+        },
+        {
+            "player_id": 1628374,
+            "player": "Lauri Markkanen",
+            "season": "2025-26",
+            "team": "UTA",
+            "points": 775
+        },
+        {
+            "player_id": 1627742,
+            "player": "Brandon Ingram",
+            "season": "2025-26",
+            "team": "TOR",
+            "points": 774
+        },
+        {
+            "player_id": 1626164,
+            "player": "Devin Booker",
+            "season": "2025-26",
+            "team": "PHX",
+            "points": 765
+        },
+        {
+            "player_id": 203944,
+            "player": "Julius Randle",
+            "season": "2025-26",
+            "team": "MIN",
+            "points": 758
+        },
+        {
+            "player_id": 1630552,
+            "player": "Jalen Johnson",
+            "season": "2025-26",
+            "team": "ATL",
+            "points": 744
+        },
+        {
+            "player_id": 201142,
+            "player": "Kevin Durant",
+            "season": "2025-26",
+            "team": "HOU",
+            "points": 737
+        },
+        {
+            "player_id": 201939,
+            "player": "Stephen Curry",
+            "season": "2025-26",
+            "team": "GSW",
+            "points": 717
+        },
+        {
+            "player_id": 1626181,
+            "player": "Norman Powell",
+            "season": "2025-26",
+            "team": "MIA",
+            "points": 702
+        },
+        {
+            "player_id": 1626157,
+            "player": "Karl-Anthony Towns",
+            "season": "2025-26",
+            "team": "NYK",
+            "points": 680
+        },
+        {
+            "player_id": 1630530,
+            "player": "Trey Murphy III",
+            "season": "2025-26",
+            "team": "NOP",
+            "points": 676
+        },
+        {
+            "player_id": 1629008,
+            "player": "Michael Porter Jr.",
+            "season": "2025-26",
+            "team": "BKN",
+            "points": 672
+        }
+    ],
+    "wnba": [
+        {
+            "player_id": 1628932,
+            "player": "A'ja Wilson",
+            "season": "2025-26",
+            "team": "LVA",
+            "points": 937
+        },
+        {
+            "player_id": 1628909,
+            "player": "Kelsey Mitchell",
+            "season": "2025-26",
+            "team": "IND",
+            "points": 890
+        },
+        {
+            "player_id": 1628276,
+            "player": "Kelsey Plum",
+            "season": "2025-26",
+            "team": "LAS",
+            "points": 839
+        },
+        {
+            "player_id": 204324,
+            "player": "Dearica Hamby",
+            "season": "2025-26",
+            "team": "LAS",
+            "points": 811
+        },
+        {
+            "player_id": 203014,
+            "player": "Nneka Ogwumike",
+            "season": "2025-26",
+            "team": "SEA",
+            "points": 803
+        },
+        {
+            "player_id": 1628277,
+            "player": "Allisha Gray",
+            "season": "2025-26",
+            "team": "ATL",
+            "points": 773
+        },
+        {
+            "player_id": 1629483,
+            "player": "Napheesa Collier",
+            "season": "2025-26",
+            "team": "MIN",
+            "points": 755
+        },
+        {
+            "player_id": 1629498,
+            "player": "Jackie Young",
+            "season": "2025-26",
+            "team": "LVA",
+            "points": 727
+        },
+        {
+            "player_id": 202250,
+            "player": "Tina Charles",
+            "season": "2025-26",
+            "team": "CON",
+            "points": 700
+        },
+        {
+            "player_id": 1629477,
+            "player": "Sabrina Ionescu",
+            "season": "2025-26",
+            "team": "NYL",
+            "points": 693
+        },
+        {
+            "player_id": 1642784,
+            "player": "Paige Bueckers",
+            "season": "2025-26",
+            "team": "DAL",
+            "points": 692
+        },
+        {
+            "player_id": 203400,
+            "player": "Skylar Diggins",
+            "season": "2025-26",
+            "team": "SEA",
+            "points": 667
+        },
+        {
+            "player_id": 1641648,
+            "player": "Aliyah Boston",
+            "season": "2025-26",
+            "team": "IND",
+            "points": 660
+        },
+        {
+            "player_id": 1642785,
+            "player": "Sonia Citron",
+            "season": "2025-26",
+            "team": "WAS",
+            "points": 638
+        },
+        {
+            "player_id": 1630149,
+            "player": "Satou Sabally",
+            "season": "2025-26",
+            "team": "PHO",
+            "points": 636
+        },
+        {
+            "player_id": 1627675,
+            "player": "Courtney Williams",
+            "season": "2025-26",
+            "team": "MIN",
+            "points": 599
+        },
+        {
+            "player_id": 203826,
+            "player": "Alyssa Thomas",
+            "season": "2025-26",
+            "team": "PHO",
+            "points": 599
+        },
+        {
+            "player_id": 1642792,
+            "player": "Kiki Iriafen",
+            "season": "2025-26",
+            "team": "WAS",
+            "points": 584
+        },
+        {
+            "player_id": 1631009,
+            "player": "Rhyne Howard",
+            "season": "2025-26",
+            "team": "ATL",
+            "points": 577
+        },
+        {
+            "player_id": 1627668,
+            "player": "Breanna Stewart",
+            "season": "2025-26",
+            "team": "NYL",
+            "points": 566
+        },
+        {
+            "player_id": 1628280,
+            "player": "Brionna Jones",
+            "season": "2025-26",
+            "team": "ATL",
+            "points": 564
+        },
+        {
+            "player_id": 1628922,
+            "player": "Azurá Stevens",
+            "season": "2025-26",
+            "team": "LAS",
+            "points": 561
+        },
+        {
+            "player_id": 1642288,
+            "player": "Rickea Jackson",
+            "season": "2025-26",
+            "team": "LAS",
+            "points": 558
+        },
+        {
+            "player_id": 203825,
+            "player": "Kayla McBride",
+            "season": "2025-26",
+            "team": "MIN",
+            "points": 554
+        },
+        {
+            "player_id": 1628279,
+            "player": "Brittney Sykes",
+            "season": "2025-26",
+            "team": "WAS",
+            "points": 550
+        }
+    ]
+}

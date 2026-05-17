@@ -1,0 +1,86 @@
+{
+    "request_meta": {
+        "request": "GET localhost:8080/bball/v2/players?player=2544&season=22024",
+        "requested_url": "/bball/v2/players?player=2544&season=22024",
+        "errors_occured": 0
+    },
+    "player": [
+        {
+            "player_meta": {
+                "player_id": 2544,
+                "team_id": 1610612747,
+                "league": "NBA",
+                "season_id": 22024,
+                "player": "LeBron James",
+                "team": "LAL",
+                "team_name": "Los Angeles Lakers",
+                "season": "2024-25 Regular Season",
+                "caption": "LeBron James | Los Angeles Lakers",
+                "caption_short": "LeBron James | LAL",
+                "cap_box_tot": "Box Totals | 2024-25 Regular Season",
+                "cap_box_avg": "Box Averages | 2024-25 Regular Season",
+                "cap_shtg_tot": "Shooting Totals | 2024-25 Regular Season",
+                "cap_shtg_avg": "Shooting Averages | 2024-25 Regular Season",
+                "headshot_url": "https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png",
+                "team_logo_url": "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg"
+            },
+            "playtime": {
+                "games_played": 69,
+                "minutes": 2412,
+                "minutes_pg": 34.96
+            },
+            "totals": {
+                "box_stats": {
+                    "points": 1694,
+                    "assists": 571,
+                    "rebounds": 541,
+                    "steals": 70,
+                    "blocks": 37
+                },
+                "shooting": {
+                    "field goals": {
+                        "made": 644,
+                        "attempted": 1254,
+                        "percentage": "51.20%"
+                    },
+                    "three pointers": {
+                        "made": 148,
+                        "attempted": 392,
+                        "percentage": "35.01%"
+                    },
+                    "free throws": {
+                        "made": 258,
+                        "attempted": 330,
+                        "percentage": "76.93%"
+                    }
+                }
+            },
+            "per_game": {
+                "box_stats": {
+                    "points": 24.55,
+                    "assists": 8.28,
+                    "rebounds": 7.84,
+                    "steals": 1.01,
+                    "blocks": 0.54
+                },
+                "shooting": {
+                    "field goals": {
+                        "made": 9.33,
+                        "attempted": 18.17,
+                        "percentage": "51.20%"
+                    },
+                    "three pointers": {
+                        "made": 2.14,
+                        "attempted": 5.68,
+                        "percentage": "35.01%"
+                    },
+                    "free throws": {
+                        "made": 3.74,
+                        "attempted": 4.78,
+                        "percentage": "76.93%"
+                    }
+                }
+            }
+        }
+    ]
+}

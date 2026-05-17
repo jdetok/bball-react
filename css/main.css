@@ -26,8 +26,11 @@ body {
 }
 
 .app {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
     margin: 0 auto;
+    
 }
 
 .tbl {
@@ -43,7 +46,6 @@ body {
     text-align: center;
     font-size: var(--h2-font-size);
     font-weight: bold;
-    text-decoration: underline;
     margin-bottom: var(--cmp-padding);
 }
 

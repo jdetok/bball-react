@@ -34,7 +34,7 @@ export default function Table({ header, cssClass, type, data, excludeFields, row
                             {Object.entries(obj).map(([k, v]: any, i) => (
                                 rowHeaderFields?.includes(k)
                                     ? <th key={`val-${i}`}>{v}</th>
-                                    : <td key={`val-${i}`}>{v}</td>
+                                    : <td key={`val-${i}`}>{typeof v === 'object' ? JSON.stringify(v) : v}</td>
                             ))}
                         </tr>
                     ))}

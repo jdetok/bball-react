@@ -1,4 +1,4 @@
-import Table from "./tbl/Table";
+import Table from "./Table";
 import {
     boxAvgs, boxTots, nbaLeaders, nbaTeamRecs, playerMeta, recGamesDate, recTopScorers,
     shootingAvgs, shootingTots, wnbaLeaders, wnbaTeamRecs

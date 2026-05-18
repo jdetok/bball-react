@@ -17,8 +17,6 @@ export default function PlayerCard({ header, subhdr, infoStrs, tImgSrc, pImgSrc 
              <div className="head">
                 <h2>{header}</h2>
                 <h3>{subhdr}</h3>
-            </div>
-            <div className="info">
                 <ul>{infoStrs?.map((s) => <li>{s}</li>)}</ul>
             </div>
             <div className="imgs">
@@ -43,14 +41,14 @@ export default function PlayerCard({ header, subhdr, infoStrs, tImgSrc, pImgSrc 
                     type="basic"
                     header={`${playerMeta?.cap_shtg_tot}`}
                     data={shootingTots}
-                    rowHeaderFields={['type']}
+                    rowHeaderFields={['Shot Type']}
                 />
                 <Table
                     cssClass="tbl"
                     type="basic"
                     header={`${playerMeta?.cap_shtg_avg}`}
                     data={shootingAvgs}
-                    rowHeaderFields={['type']}
+                    rowHeaderFields={['Shot Type']}
                 />
             </div>
         </div>

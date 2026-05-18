@@ -8,3 +8,7 @@ export const flattenShootingStats = (
         "Shot Type": k, ...data[k as keyof typeof data]
     })) : []
 );
+
+export const capitalizeEachWord = (str: string): string => {
+    return str.split(' ').map((s) => `${s.charAt(0).toUpperCase()}${s.slice(1)}`).join(' ');
+}

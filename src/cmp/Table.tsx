@@ -1,3 +1,5 @@
+import { capitalizeEachWord } from "@/utils";
+
 export type tableProps = {
     header: string;
     cssClass: string;
@@ -33,7 +35,7 @@ export default function Table({ header, cssClass, type, data, excludeFields, row
                             {type === 'ranked' && <th>{rowIdx + 1}</th>}
                             {Object.entries(obj).map(([k, v]: any, i) => (
                                 rowHeaderFields?.includes(k)
-                                    ? <th key={`val-${i}`}>{v}</th>
+                                    ? <th key={`val-${i}`}>{capitalizeEachWord(v)}</th>
                                     : <td key={`val-${i}`}>{typeof v === 'object' ? JSON.stringify(v) : v}</td>
                             ))}
                         </tr>

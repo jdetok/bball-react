@@ -8,8 +8,9 @@
     --h2-font-size: 1.3rem;
     --th-font-size: 1.2rem;
     --td-font-size: 1rem;
-    --bdr-rad: 1rem;
+    --bdr-rad: 0.65rem;
     --bdr-cmp: 2px solid black;
+    --bdr-cmp-outer: 3px solid black;
     --bdr-tst: 3px solid black;
 }
 
@@ -50,9 +51,6 @@ body {
 }
 
 .tbl > table {
-    border: var(--bdr-cmp);
-    border-radius: var(--bdr-rad);
-    padding: var(--cmp-padding);
     width: 100%;
 }
 
@@ -72,11 +70,19 @@ body {
 
 /* PLAYER CARD STYLING */
 .pcard {
+    border: var(--bdr-cmp-outer);
+    border-radius: var(--bdr-rad);
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+}
+
+.head, .info, .imgs {
     border: var(--bdr-cmp);
     border-radius: var(--bdr-rad);
+}
+
+.pcard, .head, .info {
     padding: var(--cmp-padding);
 }
 
@@ -95,11 +101,11 @@ body {
     width: 100%;
 }
 
-.pcard > .info {
+.pcard > .head {
     padding-left: var(--cmp-padding);
 }
 
-.pcard > .info > ul {
+.pcard > .head > ul {
     display: grid;
     grid-auto-flow: column;
     list-style-type:square;
